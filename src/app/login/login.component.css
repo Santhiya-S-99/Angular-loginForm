@@ -1,0 +1,222 @@
+body {
+    background-image: -webkit-gradient(linear,left top,right top,from(#4e63d7),to(#76bfe9)) !important;
+    background-image: linear-gradient(to right,#4e63d7 0%,#76bfe9 100%) !important;
+    margin-top: 20px;
+  }
+  
+  .login-box {
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .login-box .form-wrap {
+    padding: 30px 25px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    margin-top: 30%;
+    margin-left: -40%;
+  }
+  
+  .logo1 {
+    margin-left: -50px;
+    font-weight: 100;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 75%;
+  }
+  
+  .logo1.active {
+      font-weight: bold; 
+      border-left: 5px solid #ff6600; 
+  }
+  
+  .form-wrap {
+    background-color: #ff6600;
+  }
+  
+  h4 {
+    color: #fff;
+    text-align: center;
+    font-size: xx-large;
+  }
+  
+  .form-wrap p {
+    color: #fff;
+    text-align: left;
+    margin-left: 90px;
+  }
+  
+  .image {
+    width: 100%;
+  }
+  
+  form p {
+    margin-bottom: 25px;
+    color: #666;
+    text-align: left;
+  }
+  
+  .form-group .zmdi {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    background-color: #4e63d7;
+    border-radius: 5px;
+    height: 100%;
+    width: 45px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 13px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    padding-left: 60px;
+  }
+  
+  .form-control {
+    border: 1px solid #e1e1e1;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    color: #858585;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .form-container {
+    width: 350px;
+    padding: 30px;
+  }
+  
+  .welcome-heading {
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  form p {
+    margin-bottom: 25px;
+    color: #666;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* Adjusted padding for icons */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e65c00;
+  }
+  
+  a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #ff6600 !important;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  
+  @media (min-width: 768px) {
+      .login-box .form-wrap {
+          padding: 45px;
+      }
+  }
+    
+    @media (min-width: 992px) {
+  
+      .login-box {
+          margin: 100px 0;
+        }
+  
+      .login-box .form-wrap {
+        margin-top: -40px;
+        margin-bottom: -40px;
+        padding: 60px;
+      }
+    }
+  
+  @media (max-width: 768px) {
+    .col-md-6 {
+      margin-bottom: 20px;
+    }
+  
+    .form-container {
+      padding: 20px;
+    }
+  
+    input[type="email"],
+    input[type="password"] {
+      padding: 8px;
+    }
+  
+    button[type="submit"] {
+      padding: 8px;
+    }
+  
+    a {
+      font-size: 13px;
+    }
+  }
+  
